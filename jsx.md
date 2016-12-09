@@ -1,6 +1,102 @@
 # JSX
 
-* [JSX in Depth](https://facebook.github.io/react/docs/jsx-in-depth.html) 정리본
+## JSX specification
+
+* [Draft: JSX Specification](http://facebook.github.io/jsx/) 정리
+
+JSX는 ECMAScript 6th Edition의 PrimaryExpression을 확장함
+
+````
+PrimaryExpression:
+  JSXElement
+
+// Elements
+JSXElement:
+  JSXSelfClosing
+  JSXOpeningElemnt JSXChildren(opt) JSXClosingElement // element 이름이 같아야 함
+
+JSXSelfClosingElement:
+  < JSXElementName JSXAttributes(opt) />
+
+JSXOpeningElement:
+  < JSXElementName JSXAttributes(opt) >
+
+JSXClosingElement:
+  </ JSXElementName >
+
+JSXElementName:
+  JSXIdentifier
+  JSXNamedspacedName
+  JSXMemberExpression
+
+JSXIdentifier:
+  IdentifierStart
+  JSXIdentifier IdentifierPart
+  JSXIdentifier NO WHITESPACE OR COMMENT -
+
+JSXNamespacedName :
+  JSXIdentifier : JSXIdentifier
+
+JSXMemberExpression :
+  JSXIdentifier . JSXIdentifier
+  JSXMemberExpression . JSXIdentifier
+
+// Attributes
+JSXAttributes :
+  JSXSpreadAttribute JSXAttributes(opt)
+  JSXAttribute JSXAttributes(opt)
+
+JSXSpreadAttribute :
+  { ... AssignmentExpression }
+
+JSXAttribute :
+  JSXAttributeName = JSXAttributeValue
+
+JSXAttributeName :
+  JSXIdentifier
+  JSXNamespacedName
+
+JSXAttributeValue :
+  " JSXDoubleStringCharacters(opt) "
+  ' JSXSingleStringCharacters(opt) '
+  { AssignmentExpression }
+  JSXElement
+
+JSXDoubleStringCharacters :
+  JSXDoubleStringCharacter JSXDoubleStringCharacters(opt)
+
+JSXDoubleStringCharacter :
+  SourceCharacter (" 제외)
+
+JSXSingleStringCharacters :
+  JSXSingleStringCharacter JSXSingleStringCharactersopt
+
+JSXSingleStringCharacter :
+  SourceCharacter (' 제외)
+
+// Children
+JSXChildren :
+  JSXChild JSXChildren(opt)
+
+JSXChild :
+  JSXText
+  JSXElement
+  { AssignmentExpression(opt) }
+
+JSXText :
+  JSXTextCharacter JSXText(opt)
+
+JSXTextCharacter :
+  SourceCharacter ({, <, >, } 제외)
+
+// 공백과 주석
+JSX는 ECMAScript와 같은 구두법과 중괄호를 사용한다.
+공백, 줄마침(line terminators), 주석은 어떤 구두법에서도 쓸 수 있다.
+````
+
+## JSX in Depth (React에서 사용하는 JSX)
+
+* [JSX in Depth](https://facebook.github.io/react/docs/jsx-in-depth.html) 정리
 
 JSX는 XML과 유사한 ECMAScript의 문법 확장. 프리프로세서(트랜스파일러)를 이용하여 표준 ECMAScript로 변환하는 것이 기본 방향
 
@@ -303,3 +399,23 @@ React가 렌더링 하기 전에 이해할 수 있게 변환만 된다면 어떤
   My JavaScript variable is {String(myVariable)}.
 </div>
 ````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
