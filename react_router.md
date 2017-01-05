@@ -1,8 +1,6 @@
 React-Router
 ===
 
-Kean.jang
-
 ---
 
 <!-- $size: 16:9 -->
