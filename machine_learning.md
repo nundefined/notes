@@ -3,6 +3,7 @@ Machine Learning
 
 ## How to learn ML.
 * [머신러닝, 제대로 배우는 법](https://brunch.co.kr/@aidenswmo/2)
+* [내가 찾은 Deep Learning 공부 최단경로(?)](http://blog.naver.com/chesterroh/220920668374)
 
 
 ## Linear Algebra
