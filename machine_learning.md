@@ -10,9 +10,10 @@ Machine Learning
 * [ ] [Vector Intro for Linear Algebra](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
 
 
-## Introduction
+## Lectures
 * [ ] [Machine Learning by Stanford University](https://www.coursera.org/learn/machine-learning/home/welcome)
 * [ ] [모두를 위한 머신러닝/딥러닝 강의](https://hunkim.github.io/ml/)
+* [ ] [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/)
 
 
 ## Meetups & Conferences
