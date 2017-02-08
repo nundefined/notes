@@ -29,3 +29,7 @@ Machine Learning
 * [MORE AGILE](http://www.moreagile.net/search/label/BigData)
 * [T-Robotics](http://t-robotics.blogspot.kr/)
 * [텐서플로우 코리아](https://tensorflow.blog/)
+
+## Articles
+* [차원이 다른 구글 번역기의 도래](http://newspeppermint.com/2016/12/31/ai-awakening/)
+* [기계 학습(Machine Learning)은 즐겁다!](https://medium.com/@jongdae.lim/%EA%B8%B0%EA%B3%84-%ED%95%99%EC%8A%B5-machine-learning-%EC%9D%80-%EC%A6%90%EA%B2%81%EB%8B%A4-part-1-9a0297198ad8#.r42cd9rfz)
