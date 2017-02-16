@@ -23,6 +23,7 @@ Machine Learning
 ## Meetups & Conferences
 * [TensorFlow KR 첫 모임 (6/18) 강좌 모음](https://www.youtube.com/playlist?list=PLlMkM4tgfjnIMPagE47noYAJ222zWc4rw)
 * [TensorFlow KR 두번째 모임 (2017/1/14)](https://www.youtube.com/playlist?list=PLlMkM4tgfjnLHjEoaRKLdbpSIDJhiLtZE)
+* [TensorFlow Dev Summit (2017/2/15)](https://events.withgoogle.com/tensorflow-dev-summit/)
 
 
 ## References & Blogs
