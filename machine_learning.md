@@ -15,6 +15,7 @@ Machine Learning
 * [ ] [Machine Learning by Stanford University](https://www.coursera.org/learn/machine-learning/home/welcome)
 * [ ] [모두를 위한 머신러닝/딥러닝 강의](https://hunkim.github.io/ml/)
 * [ ] [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/)
+* [ ] [CS 20SI: Tensorflow for Deep Learning Research](http://web.stanford.edu/class/cs20si/index.html)
 
 
 ## Tutorials
